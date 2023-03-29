@@ -5,13 +5,13 @@ public interface NetflixFDInterface {
 
 	public void printMenu();
 
-	public void searchShow();
+	public void searchShow(String show);
 
-	public void searchMovie();
+	public void searchMovie(String movie);
 
-	public void searchRating();
+	public void searchRating(String rating);
 
-	public void searchTitle();
+	public void searchTitle(String title);
 
-	public void loadData();
+	public void loadData(String filepath);
 }
